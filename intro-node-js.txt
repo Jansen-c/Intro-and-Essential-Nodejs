@@ -1,0 +1,9 @@
+1.  Node JS merupakan runtime environment dari javascript yang bersifat open source dan cross platform. Runtime ini menjalankan code javascript di luar dari browser dan menggunakan v8 engine dan biasanya digunakan untuk server side script atau back end.
+2.  Arsitektur Node.js terdiri dari single thread, dimana mengerjakan satu task dalam satu waktu. Event loop, yaitu diproses oleh event loop untuk dieksekusi. Event queue, yaitu menyimpan request sesuai urutan masuk untuk kemudian diproses oleh Event Loop satu per satu. Lalu terakhir server side scripting, yaitu menjalankan javascript pada server.
+3.  a. Built-in Module  : http, url
+    b. External Module  : express 
+    c. Custom Module    :     exports.myDateTime = function() {
+                                return Date();
+                            };
+
+      
